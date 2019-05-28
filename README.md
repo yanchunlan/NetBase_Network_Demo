@@ -9,8 +9,8 @@
 
 ### 实现原理：
 
-- >= 5.0 , ConnectivityManager.NetworkCallback 监听实现
-- <  5.0 , BroadcastReceiver 动态监听
+- 大于 5.0 , ConnectivityManager.NetworkCallback 监听实现
+- 小于 5.0 , BroadcastReceiver 动态监听
 - 在方法中使用更加简单，就再结合IOC注解，去动态监听注册位置的方法
 
 
